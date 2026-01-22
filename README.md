@@ -2,6 +2,8 @@
 
 Questo strumento permette l'estrazione massiva delle classi di ecoregione da dataset ospitati su **Ellipsis Drive** direttamente all'interno di QGIS. È progettato per gestire grandi volumi di dati (es. migliaia di focolai) attraverso un sistema di interrogazione a blocchi (batching) per ottimizzare le performance delle API.
 
+<img src="screenshot.png"/>
+
 ## 🚀 Caratteristiche
 * **Dataset supportati:** Ecoregioni a 55, 94, 1600 e 3600 classi.
 * **Serie Storica:** Estrazione automatica dell'intera serie disponibile (2018-2024) o selezione di anni specifici.
