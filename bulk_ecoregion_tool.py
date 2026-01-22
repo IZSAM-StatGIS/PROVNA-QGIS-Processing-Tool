@@ -20,9 +20,9 @@ class EcoregionalizzazioneBulk_V2(QgsProcessingAlgorithm):
     OUTPUT_CSV = 'OUTPUT_CSV'
 
     DATASET_MAP = [
-        {'label': 'Ecoregions (55 classes)', 'id': '74d9e607-b3b9-467f-8557-4f81016839a8'},
+        {'label': 'Ecoregions (55 classes)', 'id': 'be1e61d7-f9c7-488c-985f-cd97f7e7a04b'},
         {'label': 'Ecoregions (94 classes)', 'id': '130cddc5-ce47-45b2-abfe-0961e3e597cd'},
-        {'label': 'Ecoregions (1600 classes)', 'id': '23b2046c-e092-491a-853f-f903e62f4448'},
+        {'label': 'Ecoregions (1600 classes)', 'id': '1d215c20-45e1-4e9f-b9d3-df66134586b3'},
         {'label': 'Ecoregions (3600 classes)', 'id': '5c59b5a3-a6f6-4697-a2a9-b7b215d1f862'}
     ]
     
@@ -145,4 +145,5 @@ class EcoregionalizzazioneBulk_V2(QgsProcessingAlgorithm):
     def displayName(self): return 'Bulk Ecoregionalization - BETA Version 2.2'
     def group(self): return 'IZS Tools'
     def groupId(self): return 'izstools'
+
     def createInstance(self): return EcoregionalizzazioneBulk_V2()
