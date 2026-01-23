@@ -17,8 +17,6 @@ Questo strumento permette l'estrazione massiva delle classi di ecoregione da dat
 
 Per integrare questo script nella tua **Processing Toolbox** di QGIS, segui questi passaggi:
 
-Per integrare questo script nella tua **Processing Toolbox** di QGIS, segui questi passaggi:
-
 ### 1. Ottenimento dello script
 * Scarica il file `bulk_ecoregion_tool.py` direttamente da questa repository oppure clona l'intero progetto sul tuo computer.
 
