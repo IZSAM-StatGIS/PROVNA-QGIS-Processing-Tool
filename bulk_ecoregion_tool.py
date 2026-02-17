@@ -43,7 +43,7 @@ class EcoregionalizzazioneBulk_V2(QgsProcessingAlgorithm):
             allowMultiple=True, defaultValue=[1, 3]))
         
         self.addParameter(QgsProcessingParameterEnum(
-            self.YEARS_FILTER, '4. Select years (Leave empty to extract ALL available years)', 
+            self.YEARS_FILTER, '4. Select years', 
             options=self.YEAR_OPTIONS, 
             allowMultiple=True, defaultValue=[])) # Nessuna preselezione
         
