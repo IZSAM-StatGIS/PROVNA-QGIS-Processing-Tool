@@ -42,7 +42,7 @@ L'interfaccia si presenta con i seguenti parametri:
 1. **Input points layer**: Seleziona il layer puntuale caricato in QGIS. Lo script gestisce internamente la riproiezione in WGS84 (EPSG:4326).
 2. **ID Field**: Scegli il campo che identifica univocamente il punto (es. `ID_OUTBREAK`). Se lasciato vuoto, verrà usato un indice progressivo.
 3. **Select ecoregion datasets**: Spunta i modelli di ecoregione desiderati.
-4. **Select years**: Seleziona uno o più anni. **Nota:** Se non viene selezionato alcun anno, lo script estrarrà automaticamente tutti gli anni disponibili.
+4. **Select years**: Seleziona uno o più anni.
 5. **Output CSV file path**: Definisci il percorso e il nome del file di output.
 
 ---
